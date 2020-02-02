@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@drawable/ic_launcher_background"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:text="National Crime Records Bureau"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/C_Record"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button_round"
+                android:text="Add Criminal Record"
+                tools:ignore="DuplicateIds,Suspicious0dp" />
+
+            <Button
+                android:id="@+id/Complaint"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button_round"
+                android:textSize="12dp"
+                android:text="Modify/View Complaint" />
+
+            <Button
+                android:id="@+id/R_allocation"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_round"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="12dp"
+                android:text="Resource Allocation"
+                tools:ignore="DuplicateIds,Suspicious0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/V_appoi"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button_round"
+                android:textSize="12dp"
+                android:text="View appoinments"
+                tools:ignore="DuplicateIds,Suspicious0dp" />
+
+            <Button
+                android:id="@+id/approve_NOC"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_round"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:textSize="12dp"
+                android:text="Approval of NOC" />
+
+            <Button
+                android:id="@+id/View_record"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="12dp"
+                android:text="View Criminal Records"
+                android:background="@drawable/button_round"
+                tools:ignore="DuplicateIds,Suspicious0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <Button
+                android:id="@+id/Logout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:layout_marginLeft="5dp"
+                android:text="Logout"
+                android:background="@drawable/button_round"
+                tools:ignore="DuplicateIds,Suspicious0dp" />
+        </LinearLayout>
+    </GridLayout>
+</ScrollView>

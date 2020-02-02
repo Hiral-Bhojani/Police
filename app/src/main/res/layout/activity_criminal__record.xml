@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Criminal_Record">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="133dp"
+            android:layout_height="133dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <Button
+            android:id="@+id/Select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="Select"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Name         :-  "
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Enter_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="-40dp"
+            android:hint="Enter name"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Age             :-  "
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Enter_Age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="-40dp"
+            android:hint="Enter Age"
+            android:inputType="phone"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Location     :-  "
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Enter_Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="-40dp"
+            android:hint="Enter Location"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Relatives"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Relatives    :-  "
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Enter_Relatives"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="-40dp"
+            android:hint="Enter name of Relatives"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Sources"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Sources      :-  "
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Enter_Sources"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="-40dp"
+            android:hint="Enter Sources"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/T_O_Crime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Crime Done :-"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Enter_Crime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="-40dp"
+            android:hint="Enter Crime Done"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/Upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="Upload"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</ScrollView>

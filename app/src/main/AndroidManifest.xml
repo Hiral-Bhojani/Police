@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.police">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".View_record"
+            android:label="@string/View_Record"></activity>
+        <activity android:name=".App_NOC"
+            android:label="@string/Approve_NOC"/>
+        <activity android:name=".V_appoinments"
+            android:label="@string/View_Appointment"/>
+        <activity android:name=".R_allocate"
+            android:label="@string/View_Resource_Allocation"/>
+        <activity android:name=".Complaint"
+            android:label="@string/View_Complaint"/>
+        <activity android:name=".Criminal_Record"
+            android:label="@string/Add_Record"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Police</string>
+    <string name="View_Record">View Criminal Record</string>
+    <string name="Approve_NOC">Approve NOC</string>
+    <string name="View_Appointment">View Appoitment</string>
+    <string name="View_Resource_Allocation">View Resource Allocation</string>
+    <string name="View_Complaint">View Complaint</string>
+    <string name="Add_Record">Add Record</string>
+</resources>
